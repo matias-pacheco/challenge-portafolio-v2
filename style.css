@@ -538,18 +538,21 @@ body{
     text-align: center;
 }
 
+/*
 .menu__div{
     flex-direction: column;
     align-items: center;
  }
+*/
 
- .menu__div nav{
+.menu__div nav{
     padding-left: 0;
- }
+}
 
 /*Titulo*/
 .title__div{
     flex-direction: column;
+    /* align-items: flex-start; */
 }
 
 .title__profile{
