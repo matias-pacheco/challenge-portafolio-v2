@@ -197,6 +197,39 @@ section.about{
     gap: 5px;
 }
 
+.css__icon, .java__icon{
+    width: 38px;
+}
+
+.mysql__icon{
+    width: 65px;
+}
+
+.git__icon{
+    width: 50px;
+}
+
+.javascript__icon, .book__icon{
+    width: 33px;
+}
+
+.html__icon{
+    width: 31px;
+}
+
+.voleyball__icon{
+    width: 34px;
+}
+
+.movie__icon, .dumbbell__icon, .camera__icon{
+    width: 40px;
+}
+
+.music__icon{
+    width: 35px;
+}
+
+
 .skills__name, .hobbies__name{
     font-size: 16px;
     font-weight: 700;
