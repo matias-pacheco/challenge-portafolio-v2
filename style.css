@@ -40,6 +40,10 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*---------- S e c c i ó n    M e n u ----------*/
+html{
+    scroll-behavior: smooth;
+}
+
 .menu__div{
     display: flex;
     justify-content: space-between;
