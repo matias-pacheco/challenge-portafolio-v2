@@ -247,6 +247,7 @@ section.academic{
     display: flex;
     justify-content: space-evenly;
     gap: 0 30px;
+    align-items: flex-start;
 }
 
 .academic__courses__box{
@@ -255,6 +256,36 @@ section.academic{
 
 .academic__courses__list{
     padding: 0;
+}
+
+#img__li{
+    height: 132.400px;
+    display: flex;
+    align-items: center;
+}
+
+.ulp__img{
+    width: 200px;
+}
+
+#img__li__dos{
+    display: flex;
+    align-items: center;
+    height: 132.400px;
+}
+
+.utn__img{
+    width: 254px;
+}
+
+#img__li__tres{
+    height: 132.400px;
+    display: flex;
+    align-items: center;
+}
+
+.alura__img{
+    width: 190px;
 }
 
 .academic__courses__item__img{
@@ -495,9 +526,34 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Formación Académica*/
+.academic__courses{
+    gap: 4%;
+}
+
+#img__li{
+    height: 17.2vw;
+}
+
+#img__li__dos{
+    height: 17.2vw;
+}
+
+
+#img__li__tres{
+    height: 17.2vw;
+}
+
 .academic__courses__item__img img{
     width: 23.5vw;
     min-width: 100px;
+}
+
+#img__li .ulp__img{
+    width: 24.5vw;
+}
+
+#img__li__dos .utn__img{
+    width: 31vw;
 }
 
 /*Experiencia Profesional*/
@@ -658,6 +714,13 @@ section.academic{
     width: 75.5%;
     min-width: 192px;
 }
+
+/*
+#img__li__dos .utn__img{
+    width: 50%;
+    min-width: 10px;
+}
+*/
 
 /*Experiencia Profesional*/
 section.experience{
