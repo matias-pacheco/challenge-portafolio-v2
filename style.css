@@ -300,14 +300,16 @@ section.academic{
     width: 190px;
 }
 
+/*
 .academic__courses__item__img{
-    /*background-color: #ffffff;
+    background-color: #ffffff;
     width: 368px;
     height: 286px;
     display: flex;
     align-items: center;
-    justify-content: center;*/
+    justify-content: center;
 }
+*/
 
 /*---------- E x p e r i e n c i a    P r o f e s i o n a l ----------*/
 section.experience{
@@ -644,8 +646,10 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Mobile*/
 @media (max-width: 425px) {
+/*
 body{
 }
+*/
 
 /*Menu*/
 .menu__list__item__contato a{
