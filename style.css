@@ -72,7 +72,7 @@ html{
     white-space: nowrap;
 }
 
-.menu__list__item:nth-child(5), /*Oculta Proyectos del navegador*/
+/*.menu__list__item:nth-child(5),*/ /*Oculta Proyectos del navegador*/
 .menu__list__item:nth-child(6){
     display: none;
 }
