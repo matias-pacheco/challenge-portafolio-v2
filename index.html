@@ -32,7 +32,7 @@
                         <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
                         <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
                     </ul>
-                    <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
+                    <li class="menu__list__item__contato"><a href="#contacto">Contactame</a></li>
                 </nav>
             </div>
         </section>
@@ -40,17 +40,17 @@
         <!-- Sección del Header/Title/Hero -->
         <section class="title">
             <div class="title__div estructura--comun">
-                <img class="title__profile" src="assets\profile.png">
+                <img class="title__profile" src="img/foto-perfil.jpg">
                 <div class="title__container">
                     <h2 class="title__bio">Hola, mi nombre es Matías Pacheco y soy programador java trainee</h2>
                     <h3 class="title__subsection">Soy formado en la Universidad de La Punta (ULP) y la Universidad Tecnológica
                         Nacional (UTN). Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                     <ul class="title__network">
                         <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
+                        <li class="title__network__item"><a href="https://github.com/matias-pacheco" target="_blank">Github <img src="assets\arrow.png"> </a></li>
                         <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
                         <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><a href="docs/cv-challenge-portafolio.pdf" target="_blank">Currículo <img src="assets\arrow.png"></a></li>
                     </ul>
                 </div>
             </div>
@@ -61,18 +61,11 @@
             <div class="about__container estructura--comun">
                 <div class="about__texto">
                     <h3 class="about__title">Sobre mi</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                        velit
-                        velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis
-                        pretium.
-                        Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                        velit
-                        velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis
-                        pretium.
-                        Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis,
-                        egestas
-                        metus vitae, aliquet metus.</p>
+                    <p class="about__paragraph">Tengo fundamentos en Java y conocimientos en MySQL, Git, GitHub, HTML5, CSS3 y JavaScript. Estoy en constante
+                        aprendizaje y me gusta enfrentar desafíos que me permitan mejorar mis habilidades. Valoro el trabajo colaborativo, y me esfuerzo por escribir
+                        código limpio y eficiente.</p>
+                    <p class="about__paragraph">Mi objetivo es contribuir a proyectos que me permitan ingresar en el sector IT y seguir creciendo como
+                        desarrollador. ¡Gracias por visitar mi portafolio!</p>
                 </div>
                 <!-- Si quieres, pon tú firma acá! -->
                 <img src="assets\signature.png">
@@ -222,7 +215,7 @@
                                 <h4>Especialización Front End con React</h4>
                             </li>
                             <li class="academic__courses__item__subtitle">
-                                <p>Actualmennte - Alura</p>
+                                <p>Actualmente - Alura</p>
                             </li>
                         </ul>
                     </div>
@@ -301,6 +294,26 @@
                     </div>
                 </div>
             </div>
+
+            <div class="experience__box">
+                <img class="experience__img" src="img/experiencia-profesional/juego-nro-secreto-img4.png" alt="">
+                <div class="experience__info-container">
+                    <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
+                    <h3 class="experience__text">Curso Logica de Programación en Oracle</h3>
+                    <div class="experience__description">
+                        <span class="experience__repo">
+                            <a href="https://github.com/matias-pacheco/juego-nro-secreto">
+                                <button class="experiencia__botao--repo experience--boton">Repositório</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="https://matias-pacheco.github.io/juego-nro-secreto/">
+                                <button class="experience__botao--demo experience--boton">Ver demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -311,16 +324,16 @@
                 <img class="formcontato__img" src="assets\contact_image.png">
             </div>
             <div class="formcontato__text">
-                <h2 class="formcontato__title">Contacto</h2>
+                <h2 class="formcontato__title">Contactame</h2>
                 <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                 <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted
                     lo antes posible. </h3>
                 <form class="formcontato__form" name="form">
-                    <input class="formcontato__input formcontacto--campo" type="text" name="nombre" placeholder="Nombre">
-                    <input class="formcontato__input formcontacto--campo" type="email" name="email" placeholder="E-mail">
-                    <input class="formcontato__input formcontacto--campo" type="text" name="asunto" placeholder="Assunto">
+                    <input class="formcontato__input formcontacto--campo" type="text" name="nombre" placeholder="Nombre" required maxlength="50">
+                    <input class="formcontato__input formcontacto--campo" type="email" name="email" placeholder="E-mail" required>
+                    <input class="formcontato__input formcontacto--campo" type="text" name="asunto" placeholder="Assunto" required maxlength="50">
                     <textarea class="formcontato__textarea formcontacto--campo" rows="5" cols="40" id="mensagem" name="mensaje"
-                        placeholder="Mensaje"></textarea>
+                        placeholder="Mensaje" required maxlength="30000"></textarea>
                     <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                 </form>
             </div>
